@@ -9,24 +9,166 @@
 
 <body>
 
-    <header class="hero">
-        <!-- Hero text -->
-        <h1>Yosef Teshager</h1>
-        <h2>Architect</h2>
-        <p>Welcome to my portfolio</p>
-    </header>
+  <!-- Hamburger Menu Button -->
+  <button id="menu-toggle" aria-label="Open menu">☰</button>
 
-    <!-- Buttons for navigating sections -->
-        <div class="hero-buttons">
-            <button>About Me</button>
-            <button>Projects</button>
-            <button>Contact</button>
-        </div>
-    
+  <!-- Side Menu (Hamburger Content / CV) -->
+  <nav id="side-menu">
+    <h2>Menu</h2>
 
-    <footer>© 2026 Yosef Teshager</footer>
+    <section>
+      <h3>Education</h3>
+      <p>Bachelor of Architecture<br>Bahir Dar University, Ethiopia<br>Graduated: June 2025</p>
+    </section>
 
-<!-- Link to external JS (optional for future interactions) -->
-    <script src="script.js"></script>
+    <section>
+      <h3>Experience</h3>
+      <p>Architectural Intern<br>Abiy Endris Building Contractor</p>
+      <ul>
+        <li>Architectural design assistance</li>
+        <li>3D modeling and spatial development</li>
+        <li>Preparation of drawings and presentations</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Skills</h3>
+      <h4>Technical & Design</h4>
+      <ul>
+        <li>Architectural design</li>
+        <li>3D modeling</li>
+        <li>Architectural visualization</li>
+        <li>Concept development</li>
+        <li>Presentation & documentation</li>
+      </ul>
+      <h4>Software</h4>
+      <ul>
+        <li>AutoCAD, Revit, SketchUp</li>
+        <li>Lumion, Enscape</li>
+        <li>Photoshop, Illustrator</li>
+        <li>Word, Excel, PowerPoint</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Languages</h3>
+      <ul>
+        <li>Amharic — Native</li>
+        <li>Afaan Oromo — Native</li>
+        <li>English — Advanced</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>CV</h3>
+      <a href="cv/Yosef_Teshager_CV.pdf" download>Download CV (PDF)</a>
+    </section>
+  </nav>
+
+  <!-- Top-right Navigation -->
+  <nav class="top-nav">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Yosef Teshager</h1>
+      <h2>Architect</h2>
+      <p>Welcome to my portfolio</p>
+    </div>
+    <div class="hero-photo">
+      <img src="image/profile/profile.jpg" alt="Portrait of Yosef Teshager">
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Architectural graduate with strong interest in design, spatial thinking, and digital modeling. Experienced in architectural design development, 3D modeling, and visualization through academic and internship projects.</p>
+  </section>
+
+<!-- Projects Section -->
+<section id="projects" class="projects-section">
+
+  <h2>Selected Projects</h2>
+
+  <div class="project-list">
+
+    <!-- Marble Industry -->
+    <div class="project-card">
+      <img src="image/project/marble-industry.png" alt="Marble Industry Project">
+      <h3>Marble Industry</h3>
+      <p>
+        Academic industrial architecture project focusing on production flow,
+        spatial organization, and functional design.
+      </p>
+      <a href="image/project/marble-industry.html" class="project-btn">
+        View Project
+      </a>
+    </div>
+
+    <!-- Bus Terminal -->
+    <div class="project-card">
+      <h3>Bus Terminal</h3>
+      <p>
+        Transportation hub design exploring circulation, zoning,
+        and passenger movement.
+      </p>
+      <a href="image/project/blue-hora-bus-terminal.png" class="project-btn">
+        View Project
+      </a>
+    </div>
+
+    <!-- Konjo Coffee Interior -->
+    <div class="project-card">
+      <h3>Konjo Coffee – Interior Redesign</h3>
+      <p>
+        Interior redesign project focused on atmosphere,
+        materiality, and user experience.
+      </p>
+      <a href="image/project/Interior_design-konjo_coffee.pdf" class="project-btn">
+        View Project
+      </a>
+    </div>
+
+    <!-- Thesis -->
+    <div class="project-card thesis-card">
+      <h3>Graduation Thesis</h3>
+      <p>
+        Final year architectural thesis including research,
+        site analysis, and comprehensive design solution.
+      </p>
+      <a href="image/project/thesis.html" class="project-btn">
+        View Thesis
+      </a>
+    </div>
+
+  </div>
+
+</section>
+
+
+  </div>
+</section>
+
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: yosefteshager0@gmail.com</p>
+    <p>Phone: +251 919166642</p>
+    <p>LinkedIn: <a href="#">linkedin.com/in/yosef-teshager-3aaa2a3a2</a></p>
+    <p>Portfolio: <a href="https://alfaromeojo.github.io/Portfolio/">https://alfaromeojo.github.io/Portfolio/</a></p>
+  </section>
+
+  <footer>© 2026 Yosef Teshager</footer>
+
+  <script src="script.js"></script>
 </body>
+
 </html>
